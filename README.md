@@ -4,6 +4,8 @@
 
 Yakov Pyotr Shkolnikov
 
+[![DOI](https://zenodo.org/badge/1167953427.svg)](https://doi.org/10.5281/zenodo.18793541)
+
 ---
 
 ## Abstract
@@ -22,7 +24,9 @@ The compiled paper is available in [Releases](https://github.com/yshk-mxim/probi
 @article{shkolnikov2026geometry,
   title={Do Foundation Models Know Geometry? Probing Frozen Features for Continuous Physical Measurement},
   author={Shkolnikov, Yakov Pyotr},
-  year={2026}
+  year={2026},
+  doi={10.5281/zenodo.18793541},
+  url={https://doi.org/10.5281/zenodo.18793541}
 }
 ```
 
