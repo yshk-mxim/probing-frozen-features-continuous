@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+title: "Do Foundation Models Know Geometry? Probing Frozen Features for Continuous Physical Measurement"
+authors:
+  - family-names: Shkolnikov
+    given-names: Yakov Pyotr
+    email: yshkolni@gmail.com
+type: article
+date-released: "2026-02-26"
+url: "https://github.com/yshk-mxim/probing-frozen-features-continuous"
+keywords:
+  - foundation models
+  - vision-language models
+  - geometric probing
+  - linear probes
+  - hand pose estimation
+abstract: >-
+  Vision-language models encode continuous geometry that their text
+  pathway fails to express: a 6,000-parameter linear probe extracts
+  hand joint angles at 6.1 degree MAE from frozen features, while the
+  best text output achieves only 20.0 degrees, a 3.3x bottleneck.
+  LoRA fine-tuning (r=16, 2,000 images) narrows this gap to 6.5 degrees,
+  providing evidence for a pathway-training deficit rather than a
+  representational one. Training objective determines accuracy more than
+  architecture: five encoders spanning self-supervised, contrastive, and
+  hybrid paradigms converge to statistically equivalent accuracy
+  (R^2 approx 0.55, TOST-equivalent at Delta=0.03) despite sharing as
+  little as CKA=0.41 representational similarity, extending the platonic
+  representation hypothesis to continuous geometric targets. Results
+  validated across fourteen backbones on head pose, rigid objects, gaze,
+  and camera intrinsics.
+license: CC-BY-4.0
