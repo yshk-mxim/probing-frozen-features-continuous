@@ -7,8 +7,12 @@ authors:
     email: yshkolni@gmail.com
 type: article
 date-released: "2026-02-26"
-doi: "10.5281/zenodo.18793541"
-url: "https://github.com/yshk-mxim/probing-frozen-features-continuous"
+identifiers:
+  - type: other
+    value: "arXiv:2603.06459"
+    description: "arXiv preprint"
+url: "https://arxiv.org/abs/2603.06459"
+repository-code: "https://github.com/yshk-mxim/probing-frozen-features-continuous"
 keywords:
   - foundation models
   - vision-language models
